@@ -1,0 +1,6 @@
+---
+pacemaker_pkgs:
+  - pacemaker
+  - corosync
+  - haveged
+  - pcsd

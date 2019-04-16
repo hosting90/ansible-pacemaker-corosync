@@ -1,0 +1,4 @@
+- name: Installs pacemaker & corosync
+  yum:
+    name: "{{ pacemaker_pkgs }}"
+    state: latest
